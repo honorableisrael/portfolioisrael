@@ -95,7 +95,7 @@ h4 {
 }
 
 .btn-fill {
-  color: #fff;
+  color: #fff !important;
   background-color: #212121;
 }
 
@@ -627,4 +627,41 @@ a {
 }
 .linkphonea{
     color: white !important;
+}
+
+
+.emblem {
+	position: fixed;
+	right: 2%;
+	bottom: 3%;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+  	font-weight: 900;
+    font-family: "Montserrat", 'sans-serif';
+	color:  #685785;
+	animation: spinZ 20s linear infinite;
+	text-align: center;
+}
+
+.emblem span {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: 900;
+	transition: all .5s cubic-bezier(0,0,0,1);
+}
+
+@keyframes spinZ {
+	0% {
+		transform: rotateZ(360deg);
+	}
+	100% {
+		transform: rotateZ(0deg);
+	}
 }
