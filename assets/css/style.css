@@ -273,7 +273,7 @@ body {
 .hero img {
   height: 600px;
   border-radius:1rem;
-  display: none;
+  /* display: none; */
 }
 .copy{
   cursor: pointer;
